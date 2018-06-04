@@ -1,0 +1,457 @@
+/*
+--------------------------------------------------------------
+                      Individual page
+--------------------------------------------------------------
+1-Header -----------------------------------------------------
+2-Controller section -----------------------------------------
+3-Kubernetes section -----------------------------------------
+4-twitter section --------------------------------------------
+5-Customers section ------------------------------------------ 
+5-Our blog section -------------------------------------------
+
+ */
+
+/*------------------------1-Header-----------------------------*/
+
+.stakater_header
+{
+   width: 100%;
+   background: url(..//images/header.jpg);
+   height: 610px;
+   background-size: cover;
+}
+
+.stakater_header .ingress_container
+{
+   margin-top: 175px;
+}
+
+.stakater_header .ingress_container h1
+{
+   color: #fff;
+   font-weight: 700;
+   font-family: 'Raleway', sans-serif;
+   font-size: 50px;
+}
+
+.stakater_header .ingress_container p
+{
+   color: #fff;
+   font-weight: 400;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   margin-top: 12px;
+}
+
+.stakater_navbar
+{
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a 
+{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.navbar-brand > img 
+{
+    margin-top: 10px;
+}
+
+.latest_release
+{
+	background: #fff;
+	border-radius: 20px;
+  margin-top: 20px;
+}
+
+.latest_release .latest_btn
+{
+	border-radius: 15px;
+	height: 25px;
+	line-height: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 10px;
+  font-weight: 400;
+  background-color: #f97332;
+  border-color: #f97332;
+}
+
+.latest_release .ingressM
+{
+	color: #3d4677;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.latest_release .release_v
+{
+	 background: transparent;
+	 border: transparent;
+	 color: #f97f35;
+	 font-family: 'Raleway', sans-serif;
+	 font-weight: 700;
+	 font-size: 12px;
+   text-decoration: underline;
+}
+
+.latest_release .badge-arrow
+{
+   background: transparent;
+}
+
+.latest_release .right_arrow
+{
+   color: #f97f35;
+   font-size: 12px;
+}
+
+.git_container
+{
+   background: #fff;
+   margin-top: 50px;
+   border-radius: 12px;
+   box-shadow: 0 49px 94px 6px rgba(174, 177, 222, 0.2);
+   padding-bottom: 30px;
+}
+
+.git_container .git_pro_box img
+{
+   margin: 0 auto;
+   display: table;
+}
+
+.git_container .git_pro_box
+{
+    margin-top: 40px;
+}
+
+.git_container .git_pro_box h3
+{
+    color: #2e3280;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/*---------------------end of 1-Header-------------------------*/
+
+
+/*-------------------2-Controller section --------------------  */
+
+.Controller_section
+{
+   margin-top: 200px;
+}
+
+.Controller_section p
+{
+   font-family: 'Raleway', sans-serif;
+   color: #3d4677;
+   font-size: 16px;
+}
+
+/*-----------------end of 2-Controller section ---------------  */
+
+
+
+
+/*-------------------3-Kubernetes section --------------------  */
+
+.Kubernetes_section
+{
+   margin-top: 200px;
+}
+
+.Kubernetes_section h4
+{
+   font-weight: 600;
+   font-family: 'Raleway', sans-serif;
+   color: #3d4677;
+}
+
+.Kubernetes_section p
+{
+   font-family: 'Raleway', sans-serif;
+   color: #3d4677;
+   line-height: 30px;
+}
+
+.Kubernetes_section .slack_container
+{
+  margin-top: 100px;
+}
+
+.Kubernetes_section .slack_container .slack_btn
+{
+   color: #fc9322;
+   margin: 0 auto;
+   display: table;
+   background: transparent; 
+   font-size: 20px;
+   border: 2px solid #fc9322;
+   border-radius: 6px;
+   box-shadow: 0 17px 54px rgba(252, 147, 34, 0.1);
+   height: 92px;
+   width: 492px;
+}
+
+.Kubernetes_section .slack_container .slack_btn .slack_bg
+{
+    background: transparent;
+}
+
+/*-----------------end of 3-Kubernetes section ---------------  */
+
+
+/*---------------------4-twitter section ---------------------  */
+
+.twitter_section
+{
+    margin-top: 190px;
+    background: url(..//images/twitter_bg.jpg);
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.twitter_section .twitter_content
+{
+    margin-top: 100px;
+}
+
+.twitter_section .twitter_content h3
+{
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+}
+
+.twitter_section .twitter_content h4
+{
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+.twitter_section .twitter_content .join_twitter
+{
+  width: 245px;
+  height: 70px;
+  background-color: white;
+  border-color: white;
+  border-radius: 3px;
+  box-shadow: 0 17px 54px rgba(173, 175, 218, 0.3);
+  color: #3d4677;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  display: table;
+}
+
+.twitter_section .twitter_content .twitter_icon 
+{
+   color: #1da1f2; 
+   font-size: 18px;
+   margin-left: 10px;
+}
+
+/*------------------- 5-Customers section --------------------  */
+
+.customers_section
+{
+  margin-top: 150px;
+}
+
+.customers_section h2
+{
+   color: #2e3280;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+}
+
+.customers_section p
+{
+   color: #2e3280;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.customers_section #quote-carousel blockquote h6
+{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+}
+
+.customers_section #quote-carousel .team_img
+{
+   margin: 0 auto;
+   display: table;
+}
+
+.customers_section #quote-carousel .team_name
+{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #2e3280;  
+}
+
+.customers_section #quote-carousel .team_lux
+{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #8385b1; 
+}
+
+.customers_section #quote-carousel .date
+{
+    text-align: right;
+}
+
+/*----------------end of 5-Customers section -----------------  */
+
+
+
+/*------------------ 6-our blog section ----------------------  */
+
+.blog_section
+{
+    margin-top: 100px;
+}
+
+
+.blog_section h2
+{
+   color: #2e3280;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 40px; 
+}
+
+.blog_section p
+{
+   color: #2e3280;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+
+/*--------------- end of 6-our blog section ------------------  */
