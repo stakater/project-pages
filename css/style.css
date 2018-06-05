@@ -7,7 +7,8 @@
 3-Kubernetes section -----------------------------------------
 4-twitter section --------------------------------------------
 5-Customers section ------------------------------------------ 
-5-Our blog section -------------------------------------------
+6-Our blog section -------------------------------------------
+7-footer --------- -------------------------------------------
 
  */
 
@@ -221,12 +222,12 @@
     background: url(..//images/twitter_bg.jpg);
     width: 100%;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .twitter_section .twitter_content
 {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .twitter_section .twitter_content h3
@@ -234,21 +235,22 @@
    color: #fff;
    font-family: 'Raleway', sans-serif;
    font-weight: bold;
+   font-size: 30px;
 }
 
 .twitter_section .twitter_content h4
 {
    color: #fff;
    font-family: 'Raleway', sans-serif;
-   font-weight: 600;
-   font-size: 16px;
+   font-weight: 400;
+   font-size: 20px;
    margin-bottom: 20px;
 }
 
 .twitter_section .twitter_content .join_twitter
 {
-  width: 245px;
-  height: 70px;
+  width: 200px;
+  height: 55px;
   background-color: white;
   border-color: white;
   border-radius: 3px;
@@ -256,8 +258,6 @@
   color: #3d4677;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
-  margin: 0 auto;
-  display: table;
 }
 
 .twitter_section .twitter_content .twitter_icon 
@@ -265,6 +265,11 @@
    color: #1da1f2; 
    font-size: 18px;
    margin-left: 10px;
+}
+
+.twitter_section .twitter_box
+{
+    margin-top: 40px;
 }
 
 /*------------------- 5-Customers section --------------------  */
@@ -321,7 +326,7 @@
 {
   right: 50%;
   top: auto;
-  bottom: 0px;
+  bottom: -80px;
   margin-right: -19px;
 }
 /* Changes the color of the indicators */
@@ -398,19 +403,26 @@
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
+    color: #3d4677;
 }
 
 .customers_section #quote-carousel .team_img
 {
-   margin: 0 auto;
-   display: table;
+   margin-top: 20px;
 }
+
+.customers_section #quote-carousel .team_head_content 
+{
+   margin-top: 30px;
+}
+
 
 .customers_section #quote-carousel .team_name
 {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     color: #2e3280;  
+    margin-top: 15px;
 }
 
 .customers_section #quote-carousel .team_lux
@@ -423,9 +435,52 @@
 .customers_section #quote-carousel .date
 {
     text-align: right;
+    margin-top: 60px;
+    
 }
 
-/*----------------end of 5-Customers section -----------------  */
+.customers_section #quote-carousel .date .date_content > li 
+{
+    margin: -7px;
+    opacity: 0.5;
+    color: #3d4677;
+    font-size: 14px;
+}
+
+.customers_section #quote-carousel .date .date_content > .time_z
+{
+    font-size: 16px; 
+}
+
+div#quote-carousel 
+{
+    
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 49px 94px 6px rgba(221, 222, 234, 0.5);
+}
+
+.carousel-indicators li 
+{
+    width: 30px;
+    height: 7px;
+    background-color: #f8983c;
+    border-radius: 5px;
+}
+
+#quote-carousel .carousel-indicators .active 
+{
+    background-color: #f8973a;
+    width: 40px;
+    height: 7px;
+}
+
+#quote-carousel .carousel-indicators li 
+{
+    background-color: #faca9d;
+}
+
+/*----------------end of 6-Customers section -----------------  */
 
 
 
@@ -453,5 +508,288 @@
    font-weight: 400;
 }
 
+.blog_section .blog_container
+{
+  border-radius: 10px;
+  box-shadow: 0 49px 94px 6px rgba(221, 222, 234, 0.5);
+  margin-top: 50px;
+}
 
-/*--------------- end of 6-our blog section ------------------  */
+.blog_section .blog_container2
+{
+   border-radius: 10px;
+  box-shadow: 0 49px 94px 6px rgba(221, 222, 234, 0.5);  
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.blog_section .blog_container .blog_content
+{
+   padding: 40px;
+}
+
+.blog_section .blog_container2 .blog_content2
+{
+   /*padding: 30px;*/
+}
+
+.blog_section .blog_container2 .blog_content2 .team_content
+{
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.blog_section .blog_container2 .blog_icons2
+{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.blog_section .blog_container .blog_icons .soc
+{
+   background: transparent;
+   border-color: transparent;
+}
+
+.blog_section .blog_container2 .blog_icons2 .soc2
+{
+   background: transparent;
+   border-color: transparent;
+   width: 80px;
+}
+
+.blog_section .blog_container .blog_icons .bad_trans
+{
+   background: transparent;
+}
+
+.blog_section .blog_container .blog_icons .bad_trans2
+{
+   background: transparent;
+}
+
+.blog_section .blog_container .blog_icons .soc a
+{
+   color: #3d4677;
+   text-decoration: none;
+   font-size: 14px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.blog_section .blog_container2 .blog_icons2 .soc2 a
+{
+   color: #3d4677;
+   text-decoration: none;
+   font-size: 12px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.blog_section .blog_container h3
+{
+   font-family: 'Raleway', sans-serif;
+   color: #3d4677;
+   font-weight: 400;
+   line-height: 35px;
+   font-size: 20px;
+}
+
+.blog_section .blog_container2 h3
+{
+   font-family: 'Raleway', sans-serif;
+   color: #3d4677;
+   font-weight: 400;
+   line-height: 35px;
+   font-size: 20px;
+}
+
+.blog_section .blog_container p
+{
+   color: #3d4677;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 30px;
+}
+
+.blog_section .blog_container2 p
+{
+   color: #3d4677;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 30px;
+}
+
+.blog_section .blog_container .buttons_con
+{
+   margin-top: 15px;
+}
+
+.blog_section .blog_container2 .buttons_con2
+{
+   margin-top: 15px;
+   padding-bottom: 10px;
+}
+
+.blog_section .blog_container .buttons_con .update
+{
+    width: 105px;
+    height: 40px;
+    background-color: #d5f5e3;
+    border-color: #d5f5e3;
+    border-radius: 20px;
+    color: #2ecc71;
+    transition: all 0.5s;
+}
+
+.blog_section .blog_container2 .buttons_con2 .update
+{
+    width: 105px;
+    height: 40px;
+    background-color: #d5f5e3;
+    border-color: #d5f5e3;
+    border-radius: 20px;
+    color: #2ecc71;
+    transition: all 0.5s;
+}
+
+.blog_section .blog_container .buttons_con .update:hover
+{
+    width: 105px;
+    height: 40px;
+    background-color: #fae5d3;
+    border-color: #fae5d3;
+    border-radius: 20px;
+    color: #e67e22;
+}
+
+.blog_section .blog_container2 .buttons_con2 .update:hover
+{
+    width: 105px;
+    height: 40px;
+    background-color: #fae5d3;
+    border-color: #fae5d3;
+    border-radius: 20px;
+    color: #e67e22;
+}
+
+.blog_section .blog_container .buttons_con .release
+{
+    width: 110px;
+    height: 40px;
+    background-color: #d5f5e3;
+    border-color: #d5f5e3;
+    border-radius: 20px;
+    color: #2ecc71;
+}
+
+.blog_section .blog_container2 .buttons_con2 .release
+{
+    width: 110px;
+    height: 40px;
+    background-color: #d5f5e3;
+    border-color: #d5f5e3;
+    border-radius: 20px;
+    color: #2ecc71;
+    margin-bottom: 28px;
+}
+
+.blog_section .blog_container .buttons_con .release:hover
+{
+    width: 110px;
+    height: 40px;
+    background-color: #fae5d3;
+    border-color: #fae5d3;
+    border-radius: 20px;
+    color: #e67e22;
+}
+
+.blog_section .blog_container2 .buttons_con2 .release:hover
+{
+    width: 110px;
+    height: 40px;
+    background-color: #fae5d3;
+    border-color: #fae5d3;
+    border-radius: 20px;
+    color: #e67e22;
+}
+
+/*------------------- 7-footer ---------------------  */
+
+footer
+{
+  background: url(..//images/footer_bg.png);
+  width: 100%;
+  height: 500px;
+  margin-top: 150px;
+  
+}
+
+footer .contact_box
+ {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #e9eff7;
+ }
+
+ footer .contact_box p
+ {
+   font-size: 22px;
+   color: #201345;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   margin-top: 30px;
+   padding-bottom: 30px;
+ }
+
+ footer .contact_box .contact_btn
+ {
+   background-image: linear-gradient(68deg, #f97427 0%, #f3a700 100%);
+   border-radius: 30px;
+   color: #fff;
+   width: 200px;
+   border: 8px solid #fef1e9;
+   height: 60px;
+   margin-top: 35px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+footer .footer_content
+{
+   margin-top: 70px;
+}
+
+ footer h3
+ {
+     color: #fff;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+     font-size: 30px;
+ }
+
+footer .footer_menu
+ {
+     margin-top: 30px;
+ }
+
+footer .footer_menu li
+ {
+     margin: 20px;
+ }
+
+ footer .footer_menu li a
+ {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.5s;
+ }
+
+ footer .footer_menu li a:hover
+ {
+    text-decoration: none;
+    color: yellow;
+ }
+
+/*--------------- end of footer --------------------  */
