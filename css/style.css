@@ -1788,7 +1788,7 @@ footer .email
 
 .stakater_header .form_container .btn_submit 
 {
-    width: 100%;
+    width: 100% !important;
     margin: 0 auto;
     display: table;
     margin-top: 20px;
@@ -1963,6 +1963,7 @@ ul.list-inline.text-center.forks_btn.mobile_forks_btn2
 .col_small_mobile 
 {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 /* end of overview page */
@@ -2267,12 +2268,14 @@ footer .email
 
 .stakater_header .form_container input.email 
 {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .stakater_header .form_container .btn_submit 
 {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
+    width: 110px;
+    margin: 0 auto;
 }
 
 .tablet_right
